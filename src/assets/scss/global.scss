@@ -1,0 +1,52 @@
+// General
+
+body {
+    background: rgb(54,53,53);
+    background: linear-gradient(180deg, rgb(82, 82, 82) 0%, rgba(65,65,65,1) 35%, rgba(66,66,66,1) 70%, rgba(52,52,52,1) 100%);
+}
+
+html, body, #app {
+    height: 100%;
+    margin: 0;
+}
+
+// Header
+
+.headerTitle{
+    background: white;
+    box-shadow: 0px 3px 5px #00000078;
+    padding: 15px;
+    width: 100%;
+    span{
+        color: black;
+        font-size: 20px;
+        font-family: 'Work Sans', sans-serif;
+    }
+}
+
+// Content
+
+#content {
+    margin-top: 5%;
+}
+
+.contentLine {
+    background: white;
+    box-shadow: 0px 0px 5px #00000078;
+    display: flex;
+    .card {
+        background: rgba(52,52,52,1);
+        border-radius: 5px;
+        color: white;
+        justify-content: center;
+        margin: 10px;
+        padding: 10px;
+        transition: 1s;
+        &:hover {
+            margin: 0 40px;
+            transform: scale(1.2);
+        }
+        .description {
+        }
+    }
+}
